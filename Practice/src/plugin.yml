@@ -1,0 +1,6 @@
+name: Practice
+main: secondlife.network.practice.Practice
+version: 1.0
+description: SL Practice.
+author: SecondLife Development Team
+depend: [Vituz]

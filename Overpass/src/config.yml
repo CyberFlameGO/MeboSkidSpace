@@ -1,0 +1,4 @@
+SMTP:
+  HOST: "mail.privateemail.com"
+  USER: "support@secondlife.network"
+  PASSWORD: "password"

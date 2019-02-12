@@ -1,0 +1,132 @@
+DEFAULT:
+  NAME: "Default"
+  PREFIX: "&a"
+  DEFAULT: TRUE
+  PERMISSIONS:
+    - secondlife.prefix 
+HYDROGEN:
+  NAME: "Hydrogen"
+  PREFIX: "&7[&bHydrogen&7]&e"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.hydrogen
+    - secondlife.donor
+NITROGEN:
+  NAME: "Nitrogen"
+  PREFIX: "&7[&bNitrogen&7]&e"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.nitrogen
+    - secondlife.donor
+TITANIUM:
+  NAME: "Titanium"
+  PREFIX: "&7[&bTitanium&7]&e"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.titanium
+    - secondlife.donor
+    - secondlife.prefix.common
+KRYPTON:
+  NAME: "Krypton"
+  PREFIX: "&7[&bKrypton&7]&e"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.krypton
+    - secondlife.donor
+    - secondlife.prefix.common
+    - secondlife.prefix.epic
+XENON:
+  NAME: "Xenon"
+  PREFIX: "&7[&b&oXenon&7]&e"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.xenon
+    - secondlife.color
+    - secondlife.donor
+    - secondlife.prefix.common
+    - secondlife.prefix.epic
+    - secondlife.prefix.special
+MEDIA:
+  NAME: "Media"
+  PREFIX: "&7[&5Media&7]&d"
+  INHERITANCE:
+    - DEFAULT
+    - TITANIUM
+  PERMISSIONS:
+    - secondlife.media
+PARTNER:
+  NAME: "Partner"
+  PREFIX: "&7[&5&oPartner&7]&d"
+  INHERITANCE:
+    - DEFAULT
+    - XENON
+  PERMISSIONS:
+    - secondlife.partner
+TRIALMOD:
+  NAME: "TrialMod"
+  PREFIX: "&7[&eTrialMod&7]&c"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.staff
+MODERATOR:
+  NAME: "Mod"
+  PREFIX: "&7[&9Mod&7]&c"
+  INHERITANCE:
+    - DEFAULT
+    - TRIALMOD
+  PERMISSIONS:
+    - secondlife.staffplus
+MODERATORPLUS:
+  NAME: "Mod+"
+  PREFIX: "&7[&9Mod+&7]&c"
+  INHERITANCE:
+    - DEFAULT
+    - MODERATOR
+  PERMISSIONS:
+    - secondlife.staffplus
+SENIORMODERATOR:
+  NAME: "SeniorMod"
+  PREFIX: "&7[&9SeniorMod&7]&c"
+  INHERITANCE:
+    - DEFAULT
+    - MODERATORPLUS
+  PERMISSIONS:
+    - secondlife.staffplus
+ADMINISTRATOR:
+  NAME: "Admin"
+  PREFIX: "&7[&4Admin&7]&c"
+  INHERITANCE:
+    - DEFAULT
+    - SENIORMODERATOR
+  PERMISSIONS:
+    - secondlife.admin
+SENIORADMINISTRATOR:
+  NAME: "SeniorAdmin"
+  PREFIX: "&7[&4SeniorAdmin&7]&c"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.op
+    - "*"
+PLATFORMADMINISTRATOR:
+  NAME: "PlatformAdmin"
+  PREFIX: "&7[&4PlatformAdmin&7]&4"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.op
+    - "*"
+OWNER:
+  NAME: "Owner"
+  PREFIX: "&7[&4Owner&7]&4"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - secondlife.op
+    - "*"

@@ -1,0 +1,13 @@
+whitelisted: false
+
+server_motd: "&5&lSecondLife Network"
+
+auto_message:
+  active_messages:
+    - msg1
+    - msg2
+  messages:
+    msg1:
+      message: "If you find a hacker kill him idiot!"
+    msg2:
+      message: "If you are staff kill your self because this is bullshit server!"

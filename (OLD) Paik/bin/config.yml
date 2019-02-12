@@ -1,0 +1,39 @@
+enabled: true
+test-mode: false
+autobans: true
+checks:
+  reach: true
+  autoclicker: true
+  fastbow: true
+  killaura:
+    dead: true
+    bot: true
+    packet: true
+    angle: true
+    wall: true
+  regen: true
+  flyA: true
+  flyB: true
+  fasteat: true
+  groundspoof: true
+  inventory:
+    move: true
+    killaura: true
+    autopotion: true
+  noslowdown:
+    shooting: true
+    eating: true
+  sneak: true
+  speed: true
+  timer:
+    standing: true
+    moving: true
+    looking: true
+  crash: true
+  custompayload: true
+  pingspoof: true
+  impossiblepitch: true
+  autoblock: true
+  refill: true
+  morepackets: true
+  invalidinteract: true

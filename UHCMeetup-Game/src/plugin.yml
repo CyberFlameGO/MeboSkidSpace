@@ -1,0 +1,6 @@
+name: mGame
+main: secondlife.network.meetupgame.MeetupGame
+version: 1.0
+description: SL Meetup.
+author: SecondLife Development Team
+depend: [Vituz]

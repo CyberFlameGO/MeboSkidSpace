@@ -1,0 +1,124 @@
+tntExplosion: true
+tnTExplosionDamage: true
+creeperExplosion: true
+creeperExplosionDamage: true
+waterSponge: true
+lavaSponge: true
+potion-limiter:
+  SPEED:
+    level: -1
+    extended: true
+  SLOW:
+    level: -1
+    extended: false
+  FAST_DIGGING:
+    level: -1
+    extended: true
+  SLOW_DIGGING:
+    level: -1
+    extended: true
+  INCREASE_DAMAGE:
+    level: -1
+    extended: true
+  HEAL:
+    level: -1
+    extended: true
+  HARM:
+    level: -1
+    extended: true
+  JUMP:
+    level: -1
+    extended: true
+  CONFUSION:
+    level: -1
+    extended: true
+  REGENERATION:
+    level: -1
+    extended: true
+  DAMAGE_RESISTANCE:
+    level: -1
+    extended: true
+  FIRE_RESISTANCE:
+    level: -1
+    extended: true
+  WATER_BREATHING:
+    level: -1
+    extended: true
+  INVISIBILITY:
+    level: -1
+    extended: true
+  BLINDNESS:
+    level: -1
+    extended: true
+  NIGHT_VISION:
+    level: -1
+    extended: true
+  HUNGER:
+    level: -1
+    extended: true
+  WEAKNESS:
+    level: -1
+    extended: true
+  POISON:
+    level: -1
+    extended: true
+  WITHER:
+    level: -1
+    extended: true
+  HEALTH_BOOST:
+    level: -1
+    extended: true
+  ABSORPTION:
+    level: -1
+    extended: true
+  SATURATION:
+    level: -1
+    extended: true
+entity-limit:
+  BAT: true
+  BLAZE: true
+  CAVE_SPIDER: true
+  CHICKEN: true
+  COW: true
+  CREEPER: true
+  ENDER_DRAGON: false
+  ENDERMAN: false
+  GHAST: false
+  GIANT: false
+  HORSE: false
+  IRON_GOLEM: true
+  MAGMA_CUBE: true
+  MUSHROOM_COW: true
+  PIG: true
+  PIG_ZOMBIE: true
+  SHEEP: false
+  SKELETON: true
+  SLIME: false
+  SNOWMAN: false
+  SPIDER: true
+  SQUID: false
+  VILLAGER: false
+  WITCH: false
+  WITHER: false
+  WOLF: false
+  ZOMBIE: true
+prices:
+  blazerod: 24
+  grilledpork: 4
+  arrow: 4
+  redrose: 1
+  ironingot: 8
+  cookedbeef: 4
+  leather: 4
+  goldingot: 19
+  tnt: 16
+  netherstalk: 8
+  sugarcane: 3
+  pumpkin: 8
+  melon: 8
+  cactus: 4
+  rottenflesh: 4
+  bone: 4
+  sulphur: 6
+  string: 4
+  spidereye: 4

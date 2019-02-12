@@ -1,0 +1,6 @@
+name: Overpass
+main: secondlife.network.overpass.Overpass
+version: 1.0
+description: SL Auth.
+author: SecondLife Development Team
+depend: [Vituz]

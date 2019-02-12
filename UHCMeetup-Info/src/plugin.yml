@@ -1,0 +1,6 @@
+name: MeetupInfo
+main: secondlife.network.info.InfoPlugin
+version: 1.0-SNAPSHOT
+description: SL Meetup Info.
+depend: [Vituz]
+author: SecondLife Development Team

@@ -1,0 +1,114 @@
+name: SecondLife
+main: secondlife.network.hcfactions.HCF
+version: 6.0
+description: SL HCF Core.
+author: SecondLife Development Team
+depend: [Vituz]
+commands:
+   faction:
+     description: Faction Command
+     aliases: [f, fac, team, t]    
+   master:
+     description: Master Command
+   ultimate:
+     description: Ultimate Command
+   ultra:
+     description: Ultra Command
+   balance:
+     description: Balance Command
+     aliases: [bal, eco, economy]      
+   block:
+     description: Blcok Command
+     aliases: [cobble, filter, blocks, cobblestone]        
+   bottle:
+     description: Bottle Command    
+   chat:
+     description: ChatControl Command   
+     aliases: [chatcontrol, chc]                
+   chat:
+     description: ChatControl Command   
+     aliases: [chatcontrol, chc]        
+   chest:
+     description: Chest Command   
+     aliases: [pv, playervault]      
+   coords:
+     description: Coords Command   
+     aliases: [coordinates]            
+   crowbar:
+     description: Crowbar Command                  
+   deathban:
+     description: Deathban Command   
+     aliases: [db, dban, deathb]     
+   endportal:
+     description: EndPortal Command   
+     aliases: [lightportal, lighportal]      
+   eotw:
+     description: EOTW Command   
+   event:
+     description: KoTH Command   
+     aliases: [game, koth, conquest]       
+   firstjoinitems:
+     description: FirstJoinItems Command   
+     aliases: [fji]          
+   focus:
+     description: Focus Command   
+   glowstone:
+     description: Glowstone Command   
+     aliases: [glow, glowmountain, mountain, glowstonemountain]   
+   help:
+     description: Help Command   
+     aliases: ["?"]                       
+   lastdeaths:
+     description: LastDeaths Command   
+     aliases: [ldeaths, lastd]           
+   logout:
+     description: Logout Command 
+   mapkit:
+     description: MapKit Command
+   pay:
+     description: Pay Command
+   pvp:
+     description: PvP Command
+     aliases: [prot, timer, pvptimer, lives]    
+   reclaim:
+     description: Reclaim Command
+     aliases: [claimlives, claimkeys]        
+   regen:
+     description: Regen Command     
+   savedata:
+     description: SaveData Command
+     aliases: [sd]      
+   set:
+     description: Set Command
+   sotw:
+     description: SOTW Command
+   spawn:
+     description: Spawn Command
+   staff:
+     description: StaffMode Command
+     aliases: [mod, staffmode, modmode]  
+   stats:
+     description: Stats Command
+     aliases: [status, ores]      
+   sumo:
+     description: Sumo Command          
+   tellcoords:
+     description: TellCoords Command
+     aliases: [tl]            
+   togglelightning:
+     description: ToggleLightning Command 
+   vanish:
+     description: Vanish Command
+     aliases: [v]                 
+   togglebroadcasts:
+     description: ToggleBroadcasts Command
+     aliases: [togglefd, tfd, fo, fd, foundore]  
+   secondlife:
+     description: SecondLife Command
+     aliases: [core]
+   deathlookup:
+     description: Deathlookup Command
+     aliases: [dl, deathl, dlookup, deathlook, lookdeath]
+   lastinventory:
+     description: Lastinventory Command
+     aliases: [li, lastinv, lastinventory, restoreinv, restoreinventory, ri]

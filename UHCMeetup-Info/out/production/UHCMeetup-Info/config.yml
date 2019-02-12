@@ -1,0 +1,5 @@
+DATABASE:
+  AUTHENTICATION:
+    ENABLED: TRUE
+    USER: "user"
+    PASSWORD: ""

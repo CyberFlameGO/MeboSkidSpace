@@ -1,0 +1,181 @@
+NORMAL:
+  NAME: "Normal"
+  PREFIX: "&d"
+  DEFAULT: TRUE
+  PERMISSIONS:
+    - -bukkit.command.me
+    - -bukkit.command.bungee
+    - -bukkit.command.tell
+    - -essentials.list
+    - essentials.joinfullserver
+    - essentials.signs.use.*
+    - essentials.signs.use.kits
+    - essentials.signs.use
+    - essentials.sign.use
+    - essentials.recipe
+    - essentials.kits.food
+    - essentials.msg.url
+    - -bukkit.command.me
+    - -bukkit.command.tell
+    - -bukkit.commands.me
+    - -minecraft.command.me
+    - -bukkit.me
+    - essentials.chat.url
+    - essentials.kit
+    - essentials.kits.list
+    - essentials.kits
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.kits.starter
+    - essentials.msg
+    - -essentials.me
+    - essentials.message
+    - essentials.r
+    - essentials.reply
+    - modifyworld.*
+    - essentials.rules
+    - essentials.pay
+    - essentials.balance
+    - essentials.tell
+    - essentials.who
+    - -essentials.afk
+    - essentials.list
+    - essentials.helpop
+BASIC:
+  NAME: "Basic"
+  PREFIX: "&9"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - queue.priority.5
+ELITE:
+  NAME: "Elite"
+  PREFIX: "&b"
+  INHERITANCE:
+    - DEFAULT
+    - BASIC
+  PERMISSIONS:
+    - queue.priority.4
+SPARTAN:
+  NAME: "Spartan"
+  PREFIX: "&e"
+  INHERITANCE:
+    - DEFAULT
+    - ELITE
+    - BASIC
+  PERMISSIONS:
+    - queue.priority.3
+MEDIA:
+  NAME: "Media"
+  PREFIX: "&7[&dMedia&7]&d"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - queue.priority.3
+FAMOUS:
+  NAME: "Famous"
+  PREFIX: "&7[&dFamous&7]&d"
+  INHERITANCE:
+    - DEFAULT
+    - SPARTAN
+    - MEDIA
+  PERMISSIONS:
+    - queue.priority.3
+HELPER:
+  NAME: "Helper"
+  PREFIX: "&7[&3Helper&7]&3"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - ares.mute
+    - ares.unmute
+    - ares.tempban
+    - queue.priority.0
+MODERATOR:
+  NAME: "Moderator"
+  PREFIX: "&7[&5Mod&7]&5"
+  INHERITANCE:
+    - DEFAULT
+    - HELPER
+  PERMISSIONS:
+    - secondlife.staff
+SENIORMOD:
+  NAME: "Senior Moderator"
+  PREFIX: "&7[&5Senior Mod&7]&5"
+  INHERITANCE:
+    - DEFAULT
+    - MODERATOR
+    - HELPER
+  PERMISSIONS:
+    - ares.checkpunishments
+    - essentials.tp.others
+    - essentials.tphere
+ADMIN:
+  NAME: "Administrator"
+  PREFIX: "&7[&cAdmin&7]&c"
+  INHERITANCE:
+    - DEFAULT
+    - SENIORMOD
+    - MODERATOR
+    - HELPER
+  PERMISSIONS:
+    - ares.modmode.admin
+    - essentials.tphere
+    - essentials.tp.*
+    - ares.unban.other
+    - icarus.rank.view
+    - essentials.joinfullserver
+    - essentials.gamemode
+    - essentials.god
+    - essentials.invsee
+SENIORADMIN:
+  NAME: "Senior Administrator"
+  PREFIX: "&7[&cSenior Admin&7]&c"
+  INHERITANCE:
+    - DEFAULT
+    - ADMIN
+    - SENIORMOD
+    - MODERATOR
+    - HELPER
+  PERMISSIONS:
+    - icarus.rank.grant
+    - ares.unblacklist.other
+PLATFORMADMIN:
+  NAME: "Platform Administrator"
+  PREFIX: "&7[&cPlatform Admin&7]&c"
+  INHERITANCE:
+    - DEFAULT
+    - ADMIN
+    - SENIORMOD
+    - MODERATOR
+    - HELPER
+    - SENIORADMIN
+  PERMISSIONS:
+    - icarus.rank.grant
+    - ares.unblacklist.other
+DEVELOPER:
+  NAME: "Developer"
+  PREFIX: "&7[&bDeveloper&7]&b"
+  INHERITANCE:
+    - DEFAULT
+    - SENIORADMIN
+    - ADMIN
+    - SENIORMOD
+    - MODERATOR
+    - HELPER
+  PERMISSIONS:
+    - queue.priority.0
+OWNER:
+  NAME: "Owner"
+  PREFIX: "&7[&4Owner&7]&4"
+  INHERITANCE:
+    - DEFAULT
+    - DEVELOPER
+    - SENIORADMIN
+    - ADMIN
+    - SENIORMOD
+    - MODERATOR
+    - HELPER
+  PERMISSIONS:
+    - "*"
+    - secondlife.op

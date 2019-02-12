@@ -1,0 +1,6 @@
+name: Paik
+main: secondlife.network.paik.Paik
+version: 1.0
+description: Paik Anticheat.
+author: SecondLife Development Team
+depend: [Vituz]

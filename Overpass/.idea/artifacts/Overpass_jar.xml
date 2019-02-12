@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Overpass:jar">
+    <output-path>$USER_HOME$/Desktop/All/Export</output-path>
+    <root id="archive" name="Overpass.jar">
+      <element id="module-output" name="Overpass" />
+    </root>
+  </artifact>
+</component>

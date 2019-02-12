@@ -1,0 +1,26 @@
+name: Paik
+main: secondlife.network.paik.Paik
+author: ItsNature
+version: 1.0
+depend: [ProtocolLib]
+
+commands:
+   autobans:
+     description: Autobans command   
+     aliases: [enableautobans, disableautobans]
+   killaura:
+     description: Killaura command   
+     aliases: [ff, forcefield, ka]
+   ocmc:
+     description: OCMC command
+   logs:
+     description: Logs command   
+     aliases: [log, aclogs, anticheatlogs]
+   paik:
+     description: Paik command  
+     aliases: [ac, anticheat]
+   paikban:
+     description: Paik ban command  
+     aliases: [pban, acban, anticheatban]
+   ping:
+     description: Ping command

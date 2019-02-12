@@ -1,0 +1,240 @@
+name: Vituz
+main: secondlife.network.vituz.Vituz
+version: 1.0
+description: SL Essentials.
+author: SecondLife Development Team
+depend: [ProtocolLib]
+commands:
+    crate:
+      description: CrateData Command
+      aliases: [crates, keys, key]
+    altview:
+      description: Altview Command
+      aliases: [alts, dupeip, alertnateaccountview, av, aw]      
+    ban:
+      description: Ban Command
+    blacklist:
+      description: Blacklist Command
+    checkpunishments:
+      description: CheckPunishments Command      
+      aliases: [c]  
+    clearpunishments:
+      description: ClearPunishments Command      
+      aliases: [cp, clearp, cpunishments]
+    ipban:
+      description: IPBan Command
+      aliases: [banip]
+    ip:
+      description: IP Command
+    kick:
+      description: Kick Command
+    mute:
+      description: Mute Command             
+      aliases: [tmute]   
+    tempban:
+      description: Tempban Command 
+      aliases: [tban]            
+    unban:
+      description: Unban Command      
+      aliases: [pardon]
+    unblacklist:
+      description: Unblacklist Command      
+      aliases: [unbl]
+    unipban:
+      description: Unipban Command
+      aliases: [unib, unbanip, uib]
+    grant:
+      description: Grant Command             
+    grants:
+      description: Grants Command             
+      aliases: [viewgrants]
+    rank:
+      description: Rank Command             
+      aliases: [ranks]
+    addpermission:
+      description: AddPermission Command
+      aliases: [addperm]
+    listpermissions:
+      description: ListPermissions Command
+      aliases: [listperm, permlist]
+    removepermission:
+      description: RemovePermission Command
+      aliases: [removeperm]
+    unmute:
+      description: Unmute Command      
+    bungeecommand:
+      description: Bungee Command
+    broadcast:
+      description: Broadcast Command
+      aliases: [bc]     
+    ignore:
+      description: Ignore Command           
+    message:
+      description: Message Command
+      aliases: [msg, w, tell, whisper, m]
+    reply:
+      description: Reply Command
+      aliases: [r]
+    socialspy:
+      description: Socialspy Command
+      aliases: [spy]        
+    sounds:
+      description: Sounds Command
+      aliases: []
+    togglechat:
+      description: ToggleChat Command
+      aliases: [tc, hidechat, hidechatmessages]
+    togglepm:
+      description: TogglePM Command
+      aliases: [tpm, toggleprivatemessages]                                               
+    adventure:
+      description: Adventure Command
+      aliases: [gma]     
+    creative:
+      description: Creative Command
+      aliases: [gmc]            
+    gamemode:
+      description: Gamemode Command
+      aliases: [gm]    
+    survival:
+      description: Survival Command
+      aliases: [gms]
+    crate:
+      description: CrateData Command
+      aliases: [crates]
+    clear:
+      description: Clear Command
+      aliases: [clearinv, clearinventory, ci]        
+    craft:
+      description: Craft Command
+    enchant:
+      description: Enchant Command                      
+    enderchest:
+      description: Enderchest Command
+      aliases: [ec]      
+    give:
+      description: Give Command   
+    giveyourself:
+      description: GiveYourSelf Command
+      aliases: [i]  
+    invsee:
+      description: Invsee Command
+      aliases: [inv]           
+    more:
+      description: More Command
+      aliases: [stack]       
+    rename:
+      description: Rename Command  
+    repair:
+      description: Repair Command
+      aliases: [fix]
+    back:
+      description: Repair Command      
+    teleportall:  
+      description: Teleportall Command       
+      aliases: [tpall]         
+    teleport:  
+      description: Teleport Command       
+      aliases: [tp, tele]      
+    teleporthere:  
+      description: Teleporthere Command       
+      aliases: [tphere, telehere, s]       
+    teleportposition:
+      description: Teleportposition Command       
+      aliases: [tppos, telepos]     
+    top:
+      description: Top Command     
+    warp:
+      description: Warp Command          
+    world:
+      description: World Command
+    chat:
+      description: ChatControl Command
+      aliases: [chatcontrol, chc]
+    day:
+      description: Day Command   
+    exp:
+      description: Exp Command
+      aliases: [setxp]                                          
+    feed:
+      description: Feed Command
+      aliases: [eat]   
+    fly:
+      description: Fly Command
+      aliases: [flight]      
+    freeze:
+      description: Freeze Command
+      aliases: [portalfreeze, ss]          
+    god:
+      description: God Command     
+    heal:
+      description: Heal Command           
+    kickall:
+      description: Kickall Command                             
+    killall:
+      description: Killall Command            
+    kill:
+      description: Kill Command
+      aliases: [slay]    
+    lag:
+      description: Lag Command
+      aliases: [mem, gc]            
+    lore:
+      description: Lore Command          
+    night:
+      description: Night Command
+    notes:
+      description: Notes Command
+    playerdistance:
+      description: Playerdistance Command
+      aliases: [pd]
+    protocol:
+      description: Protocol Command
+      aliases: [checkver, vercheck, checkversion, versioncheck]
+    playtime:
+      description: Playtime Command.
+      aliases: [pt]
+    settings:
+       description: Settings Command.
+       aliases: [options]
+    reboot:
+      description: Reboot Command.                   
+    spawner:
+      description: Spawner Command                  
+    speed:
+      description: Speed Command                
+    staffjoin:
+      description: StaffJoin Command          
+      aliases: [sj]
+    status:
+      description: Status Command
+      aliases: [serverstatus, st]
+    sun:
+      description: Sun Command
+    tasks:
+      description: Tasks Command
+    viewdistance:
+      description: Viewdistance Command
+      aliases: [vd]
+    challenge:
+        description: Challenge Command
+        aliases: [challenges]
+    color:
+      description: Color Command             
+    donate:
+      description: Donate Command
+      aliases: [buy, store]
+    list:
+      description: List Command
+      aliases: [who, online, players]
+    ping:
+      description: Ping Command
+      aliases: [pong, latency, ms]
+    prefix:
+      description: Prefix Command
+      aliases: [prefixes, symbols]
+    seen:
+      description: Seen Command                                    
+    teamspeak:
+      description: TeamSpeak Command
+      aliases: [ts]                                                                                                                                                                                                                                                                                         

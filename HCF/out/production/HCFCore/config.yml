@@ -1,0 +1,49 @@
+SERVERNAME: "Test"
+SCOREBOARD:
+  TITLE: "&5&lSecondLife &d(Map 14)"
+ECONOMY:
+  SIGN:
+    BUY_TEXT:
+      - "&a[Buy]"
+      - "%ITEM%"
+      - "%AMOUNT%"
+      - "$%PRICE%"
+    SELL_TEXT:
+      - "&c[Sell]"
+      - "%ITEM%"
+      - "%AMOUNT%"
+      - "$%PRICE%"
+DEATH_SIGN:
+  SIGN:
+    - "&c%KILLED%"
+    - "&ewas slain by"
+    - "&a%KILLER%"
+    - "%TIME%"
+  ITEM_STACK:
+    NAME: "&aDeath Sign"
+    LORE:
+      - "&c%KILLED%"
+      - "&ewas slain by"
+      - "&a%KILLER%"
+      - "&d%TIME%"
+kitmap: false
+coords:
+- '&7&m-----------------------------' 
+- ' &e&lImportant coordinates (x,z)'
+- ' &7- &aSpawn&7: 0 , 0'
+- ' &7- &3Towers Koth&7: 500 , 500'
+- ' &7- &3Islands Koth&7: -500 , 500'
+- ' &7- &3Moon Koth&7: 500 , -500'
+- ' &7- &3End Koth&7: -80, 90 (End)'
+- ' &7- &3&lConquest&7: -500 , -500'
+- ' &7- &cEnd Portal&7: 700 , 700 (All quadrants)'
+- '&7&m-----------------------------'   
+help:
+- '&7&m-----------------------------'   
+- ' &7- &6/faction &7- Use to see all factions related commands.'
+- ' &7- &6/koth &7- Use to see all koth related commands.'
+- ' &7- &6/lives &7- Use to check your lives amount.'
+- ' &7- &6/mapkit &7- Use to check this map kit.'
+- ' &7- &6/coords &7- Use to see all important coordinates.'
+- ' &7- &6/logout &7- Logout countdown for safe logout.'
+- '&7&m-----------------------------'   

@@ -1,0 +1,9 @@
+SERVERNAME: "Test"
+HEALTH_BAR: false
+CRATES: false
+DATABASE:
+  HOST: "127.0.0.1"
+  AUTHENTICATION:
+    ENABLED: TRUE
+    USER: "user"
+    PASSWORD: "password"

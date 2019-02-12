@@ -1,0 +1,6 @@
+name: SecondLife
+main: secondlife.network.hub.Hub
+version: 1.0
+description: SL Hub.
+author: SecondLife Development Team
+depend: [Vituz]

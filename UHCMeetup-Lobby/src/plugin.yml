@@ -1,0 +1,6 @@
+name: mLobby
+main: secondlife.network.meetuplobby.MeetupLobby
+version: 1.0
+description: SL Meetup Lobby.
+author: SecondLife Development Team
+depend: [Vituz]

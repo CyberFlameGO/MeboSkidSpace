@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Marko/Desktop/Serveri/Lombok-1.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marko/Desktop/Serveri/SL - Hub/plugins/ProtocolLib (3) (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marko/Desktop/redisspigot/paperspigot-api-1.7.10-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marko/Desktop/redisspigot/paperspigot-1.7.10-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

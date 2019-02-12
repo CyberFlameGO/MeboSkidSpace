@@ -1,0 +1,4 @@
+name: Bungee
+version: 1.0
+author: SecondLife Development Team
+main: secondlife.network.bungee.Bungee

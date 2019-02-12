@@ -1,0 +1,5 @@
+REDIS:
+  HOST: localhost
+  AUTHENTICATE: false
+  PASSWORD: password
+  PORT: 6379

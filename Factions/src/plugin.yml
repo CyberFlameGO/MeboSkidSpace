@@ -1,0 +1,6 @@
+name: Victions
+main: secondlife.network.victions.Victions
+version: 1.0-SNAPSHOT
+description: SL Factions Core.
+depend: [Vituz]
+author: SecondLife Development Team

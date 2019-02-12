@@ -1,0 +1,8 @@
+SERVERNAME: "Test"
+HEALTH_BAR: false
+CRATES: false
+DATABASE:
+  AUTHENTICATION:
+    ENABLED: TRUE
+    USER: "user"
+    PASSWORD: ""
